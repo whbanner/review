@@ -17,6 +17,7 @@ public class PipeLineTest {
         p.zadd("r2", 0, "barinsky");
         p.zadd("r2", 0, "barikoviev");
         Response<String> pipeString = p.get("r1");
+        System.out.println(pipeString);
         Response<Set<String>> sose = p.zrange("r2", 0, -1);
         p.sync();
         int soseSize = sose.get().size();

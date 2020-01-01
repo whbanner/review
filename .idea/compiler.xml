@@ -7,8 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redisDemo1" />
+        <module name="springbootredisdeom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redisDemo1" options="-parameters" />
+      <module name="springbootredisdeom" options="-parameters" />
+    </option>
   </component>
 </project>
