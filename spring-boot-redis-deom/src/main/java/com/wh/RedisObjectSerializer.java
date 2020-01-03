@@ -8,7 +8,9 @@ import org.springframework.data.redis.serializer.SerializationException;
 
 public class RedisObjectSerializer implements RedisSerializer<Object> {
 
+  //将对象转化为字节数组
   private Converter<Object, byte[]> serializer = new SerializingConverter();
+  //将字节数组转化为对象
   private Converter<byte[], Object> deserializer = new DeserializingConverter();
 
   static final byte[] EMPTY_ARRAY = new byte[0];
@@ -38,6 +40,7 @@ public class RedisObjectSerializer implements RedisSerializer<Object> {
   }
 
   private boolean isEmpty(byte[] data) {
+
     return (data == null || data.length == 0);
   }
 }

@@ -27,6 +27,10 @@ public class ApplicationTests {
 
 		// 保存字符串
 		stringRedisTemplate.opsForValue().set("aaa", "111");
+		//. 如果两者一致, 程序继续往下运行. 2. 如果两者不一致, 中断测试方法, 抛出异常信息
+		//opsForValue()描述具有简单值的条目
+		//opsForList()操作具有list值的条目
+		//opsForSet()操作具有set值的条目
 			Assert.assertEquals("111", stringRedisTemplate.opsForValue().get("aaa"));
 
 		// 保存对象

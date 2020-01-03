@@ -16,7 +16,7 @@ import java.sql.SQLException;
 public class DataSourceDemoApplication implements CommandLineRunner {
 
     @Autowired
-    private DataSource dataSource;
+    private DataSource dataSource; //在配置文件中配置为hakari连接池 自动注入的即为hakari连接池
 
 
     public static void main(String[] args) {
