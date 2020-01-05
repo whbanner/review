@@ -12,6 +12,7 @@
         <module>redisDemo1</module>
         <module>spring-boot-redis-deom</module>
         <module>datasource-demo</module>
+        <module>mybatis-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

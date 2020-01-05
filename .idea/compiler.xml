@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="datasourcedemo" />
         <module name="redisDemo1" />
+        <module name="mybatisdemo" />
         <module name="springbootredisdeom" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datasourcedemo" options="-parameters" />
+      <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
       <module name="springbootredisdeom" options="-parameters" />
     </option>
