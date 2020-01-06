@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="datasourcedemo" />
-        <module name="redisDemo1" />
         <module name="mybatisdemo" />
         <module name="springbootredisdeom" />
+        <module name="dubboservice" />
+        <module name="dubboapi" />
+        <module name="datasourcedemo" />
+        <module name="redisDemo1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -17,8 +19,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datasourcedemo" options="-parameters" />
+      <module name="dubboapi" options="-parameters" />
+      <module name="dubboservice" options="-parameters" />
       <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
+      <module name="springbootdubbo" options="" />
       <module name="springbootredisdeom" options="-parameters" />
     </option>
   </component>

@@ -13,6 +13,7 @@
         <module>spring-boot-redis-deom</module>
         <module>datasource-demo</module>
         <module>mybatis-demo</module>
+        <module>spring-boot-dubbo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
