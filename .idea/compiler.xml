@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
         <module name="springbootredisdeom" />
-        <module name="dubboservice" />
-        <module name="dubboapi" />
-        <module name="datasourcedemo" />
         <module name="redisDemo1" />
+        <module name="dubboservice" />
+        <module name="datasourcedemo" />
+        <module name="dubboconsumer" />
+        <module name="dubboapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datasourcedemo" options="-parameters" />
       <module name="dubboapi" options="-parameters" />
+      <module name="dubboconsumer" options="-parameters" />
       <module name="dubboservice" options="-parameters" />
       <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
