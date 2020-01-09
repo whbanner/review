@@ -1,4 +1,4 @@
-package com.ease.archiecture.api;
+package com.wh.api;
 
 public interface HelloService {
 

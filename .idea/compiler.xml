@@ -9,22 +9,17 @@
         <module name="mybatisdemo" />
         <module name="dubbo-api" />
         <module name="springbootredisdeom" />
-        <module name="dubbo-service" />
+        <module name="dubboservice" />
+        <module name="dubboapi" />
         <module name="datasourcedemo" />
         <module name="dubboconsumer" />
         <module name="redisDemo1" />
       </profile>
       <profile name="Annotation profile for review1" enabled="true">
-        <sourceOutputDir name="../../dubbo-provider/dubbo-api/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../dubbo-provider/dubbo-api/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubboapi" />
-      </profile>
-      <profile name="Annotation profile for dubboservice" enabled="true">
-        <sourceOutputDir name="../../dubbo-provider/dubbo-service/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../dubbo-provider/dubbo-service/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="dubboservice" />
+        <module name="dubbo-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -32,6 +27,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datasourcedemo" options="-parameters" />
+      <module name="dubbo-api" options="-parameters" />
+      <module name="dubbo-service" options="-parameters" />
       <module name="dubboapi" options="-parameters" />
       <module name="dubboconsumer" options="-parameters" />
       <module name="dubboservice" options="-parameters" />
