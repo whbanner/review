@@ -7,19 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
-        <module name="dubbo-api" />
         <module name="springbootredisdeom" />
-        <module name="dubboservice" />
-        <module name="dubboapi" />
-        <module name="datasourcedemo" />
-        <module name="dubboconsumer" />
         <module name="redisDemo1" />
+        <module name="dubbo-service" />
+        <module name="datasourcedemo" />
+        <module name="springbootjpademo" />
+        <module name="dubboconsumer" />
+        <module name="dubboapi" />
+      </profile>
+      <profile name="Annotation profile for dubbo-api" enabled="true">
+        <sourceOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-api" />
       </profile>
       <profile name="Annotation profile for review1" enabled="true">
-        <sourceOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../../dubbo-provider/dubbo-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../dubbo-provider/dubbo-service/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-service" />
+        <module name="dubboservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -35,6 +41,7 @@
       <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
       <module name="springbootdubbo" options="" />
+      <module name="springbootjpademo" options="-parameters" />
       <module name="springbootredisdeom" options="-parameters" />
     </option>
   </component>
