@@ -30,7 +30,7 @@ public class DataSourceDemoApplication implements CommandLineRunner {
         return dataSource.getConnection();
     }
 
-
+//测试100w次连接需要花多长时间
     @Override
     public void run(String... args) throws Exception {
         long start = System.currentTimeMillis();
