@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
         <module name="springbootredisdeom" />
-        <module name="redisDemo1" />
         <module name="dubbo-service" />
+        <module name="redisDemo1" />
         <module name="datasourcedemo" />
         <module name="springbootjpademo" />
         <module name="dubboconsumer" />

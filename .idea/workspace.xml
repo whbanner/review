@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e518f11a-40c7-415e-a208-82340e695a77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/springbootjpademo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,18 +46,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/wh/config/ConsumerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -77,17 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="90">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,13 +66,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/UserRepository.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="-150">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#30#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,10 +101,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/springbootjpademo.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="75">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -216,9 +205,9 @@
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/UserRepository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -256,8 +245,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="310" />
     <option name="y" value="63" />
-    <option name="width" value="986" />
-    <option name="height" value="586" />
+    <option name="width" value="976" />
+    <option name="height" value="596" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,6 +302,14 @@
               <item name="review1" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-jpa-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -338,7 +333,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,12 +355,8 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-api/src/main/java" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-api/com/wh/api" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-service/src/main/java/com/wh/impl" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-api/com.wh.api" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-dubbo/dubbo-service/src/main/java/com/wh" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wh" />
@@ -372,8 +365,12 @@
       <recent name="com.wh.config" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-boot-dubbo/dubbo-service/src/main/java/com/wh" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-api/src/main/java" />
+      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-api/com/wh/api" />
+      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-service/src/main/java/com/wh/impl" />
+      <recent name="$PROJECT_DIR$/dubbo-provider/dubbo-service/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,7 +494,9 @@
       <workItem from="1578584034103" duration="1186000" />
       <workItem from="1578741749088" duration="619000" />
       <workItem from="1578833124958" duration="1050000" />
-      <workItem from="1578921698133" duration="1110000" />
+      <workItem from="1578921698133" duration="1464000" />
+      <workItem from="1578964930822" duration="585000" />
+      <workItem from="1579010296034" duration="1929000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;pipeline&quot;">
       <created>1577720076362</created>
@@ -562,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578585019319</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jpa">
+      <created>1578923410920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578923410922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -598,13 +604,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36756000" />
+    <option name="totallyTimeSpent" value="39624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3194864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32854986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -622,7 +628,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924472" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924472" visible="true" weight="0.29967427" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007553" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -651,7 +657,8 @@
     <MESSAGE value="dubbo" />
     <MESSAGE value="dubbo-consumer" />
     <MESSAGE value="dubbo-provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo-provider" />
+    <MESSAGE value="jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,16 +679,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis-deom/src/test/java/com/wh/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.8.RELEASE/spring-data-redis-2.1.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18120">
@@ -944,6 +941,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/wh/config/ConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-provider/dubbo-api/src/main/java/com/wh/api/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -968,13 +975,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/wh/config/ConsumerConfig.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/springbootjpademo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -985,44 +992,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="-150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#0#30#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1083,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubboapi</last-edited>
+          <last-edited>springbootjpademo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
