@@ -8,24 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
         <module name="springbootredisdeom" />
-        <module name="dubbo-service" />
-        <module name="redisDemo1" />
+        <module name="io" />
+        <module name="dubboservice" />
+        <module name="dubboapi" />
         <module name="datasourcedemo" />
         <module name="springbootjpademo" />
         <module name="dubboconsumer" />
-        <module name="dubboapi" />
+        <module name="redisDemo1" />
       </profile>
-      <profile name="Annotation profile for dubbo-api" enabled="true">
+      <profile name="Annotation profile for dubbo-service" enabled="true">
+        <sourceOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-service" />
+      </profile>
+      <profile name="Annotation profile for review1" enabled="true">
         <sourceOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-api" />
-      </profile>
-      <profile name="Annotation profile for review1" enabled="true">
-        <sourceOutputDir name="../../dubbo-provider/dubbo-service/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../dubbo-provider/dubbo-service/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="dubboservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -38,6 +39,7 @@
       <module name="dubboapi" options="-parameters" />
       <module name="dubboconsumer" options="-parameters" />
       <module name="dubboservice" options="-parameters" />
+      <module name="io" options="-parameters" />
       <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
       <module name="springbootdubbo" options="" />
