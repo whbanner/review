@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
-        <module name="springbootredisdeom" />
-        <module name="io" />
-        <module name="dubboservice" />
-        <module name="dubboapi" />
-        <module name="datasourcedemo" />
-        <module name="springbootjpademo" />
         <module name="dubboconsumer" />
         <module name="redisDemo1" />
+        <module name="io" />
+        <module name="dubboservice" />
+        <module name="springbootredisdeom" />
+        <module name="springbootjpademo" />
+        <module name="datasourcedemo" />
+        <module name="dubboapi" />
       </profile>
       <profile name="Annotation profile for dubbo-service" enabled="true">
         <sourceOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-sources/annotations" />
