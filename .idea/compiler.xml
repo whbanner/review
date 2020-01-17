@@ -7,20 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
-        <module name="dubboconsumer" />
+        <module name="lock" />
         <module name="redisDemo1" />
-        <module name="io" />
-        <module name="dubboservice" />
+        <module name="dubboapi" />
+        <module name="dubbo-service" />
         <module name="springbootredisdeom" />
         <module name="springbootjpademo" />
+        <module name="dubboconsumer" />
         <module name="datasourcedemo" />
-        <module name="dubboapi" />
+        <module name="io" />
       </profile>
-      <profile name="Annotation profile for dubbo-service" enabled="true">
-        <sourceOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-service/target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for dubboservice" enabled="true">
+        <sourceOutputDir name="../../dubbo-provider/dubbo-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../dubbo-provider/dubbo-service/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-service" />
+        <module name="dubboservice" />
       </profile>
       <profile name="Annotation profile for review1" enabled="true">
         <sourceOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-sources/annotations" />
@@ -40,6 +41,7 @@
       <module name="dubboconsumer" options="-parameters" />
       <module name="dubboservice" options="-parameters" />
       <module name="io" options="-parameters" />
+      <module name="lock" options="-parameters" />
       <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
       <module name="springbootdubbo" options="" />

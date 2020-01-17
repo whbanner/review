@@ -18,6 +18,7 @@
         <module>dubbo-provider</module>
         <module>spring-boot-jpa-demo</module>
         <module>io</module>
+        <module>lock</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
