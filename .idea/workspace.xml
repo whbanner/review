@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e518f11a-40c7-415e-a208-82340e695a77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e518f11a-40c7-415e-a208-82340e695a77" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/redisDemo1/target/" />
@@ -46,27 +44,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/io/src/main/java/com/wh/IoTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lock/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/SynchronizedLock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -105,11 +82,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/LatchLock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/log/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/log/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -159,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redisDemo1/src/main/java/PipeLineTest.java" />
-        <option value="$PROJECT_DIR$/redisDemo1/src/main/java/pipeline/PipeLine1.java" />
         <option value="$PROJECT_DIR$/redisDemo1/src/main/java/pipeline/PipeLineTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-redis-deom/src/main/java/com/wh/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-redis-deom/src/main/java/com/wh/domain/RedisConfig.java" />
@@ -210,6 +203,8 @@
         <option value="$PROJECT_DIR$/lock/src/main/java/com/wh/CacheLock.java" />
         <option value="$PROJECT_DIR$/lock/src/main/java/com/wh/SpinLock.java" />
         <option value="$PROJECT_DIR$/lock/src/main/java/com/wh/LatchLock.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/wh/log/Application.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/wh/log/Person.java" />
       </list>
     </option>
   </component>
@@ -268,6 +263,51 @@
               <item name="review1" type="b2602c69:ProjectViewProjectNode" />
               <item name="review1" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wh" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -448,7 +488,7 @@
       <workItem from="1579608393608" duration="598000" />
       <workItem from="1579656265323" duration="184000" />
       <workItem from="1579701467560" duration="2143000" />
-      <workItem from="1579784522333" duration="1241000" />
+      <workItem from="1579784522333" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;pipeline&quot;">
       <created>1577720076362</created>
@@ -569,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579702450037</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="log4j">
+      <created>1579787305288</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579787305288</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -605,12 +652,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51034000" />
+    <option name="totallyTimeSpent" value="51280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="714" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3942598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3942598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -628,7 +675,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924472" weight="0.2982143" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924472" visible="true" weight="0.2982143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007553" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -663,7 +710,8 @@
     <MESSAGE value="读写锁" />
     <MESSAGE value="自旋锁" />
     <MESSAGE value="闭锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="闭锁" />
+    <MESSAGE value="log4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="log4j" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,26 +732,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-demo/src/main/java/com/wh/JDBCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-demo/src/main/java/com/wh/MyBatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-demo/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -959,7 +987,7 @@
     <entry file="file://$PROJECT_DIR$/lock/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1021,7 +1049,21 @@
     <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/LatchLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/log/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/wh/log/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
