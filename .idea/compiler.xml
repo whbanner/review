@@ -9,13 +9,13 @@
         <module name="mybatisdemo" />
         <module name="springbootredisdeom" />
         <module name="dubbo-service" />
-        <module name="io" />
         <module name="dubboapi" />
+        <module name="redisDemo1" />
         <module name="datasourcedemo" />
         <module name="springbootjpademo" />
         <module name="dubboconsumer" />
         <module name="lock" />
-        <module name="redisDemo1" />
+        <module name="io" />
       </profile>
       <profile name="Annotation profile for dubboservice" enabled="true">
         <sourceOutputDir name="../../dubbo-provider/dubbo-service/target/generated-sources/annotations" />
