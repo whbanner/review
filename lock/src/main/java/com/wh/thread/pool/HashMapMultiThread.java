@@ -1,4 +1,4 @@
-package com.wh.thread;
+package com.wh.thread.pool;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
