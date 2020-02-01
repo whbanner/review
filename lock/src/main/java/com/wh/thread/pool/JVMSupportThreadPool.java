@@ -34,7 +34,7 @@ public class JVMSupportThreadPool {
             newScheduledThreadPool.submit(testPoolRunnable);
         }
 
-        //TODO:Explain it
+
         try {
             newScheduledThreadPool.shutdown();
             if (newScheduledThreadPool.awaitTermination(1, TimeUnit.SECONDS)) {
