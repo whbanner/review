@@ -1,0 +1,13 @@
+用户进程对静态资源进行io时
+1.调用read ，文件A copy到kernel
+2.之后 kernel copy 给用user进程
+3.调用write时，用户进程在copy给 kernel ，socket的buffer中
+4.kernel模式下 在将socket buffer在copy 给网卡设备进行发送
+
+0拷贝
+1.将文件拷贝的kernel的buffer中
+2.向socker buffer追加当前要发送数据在kernel的位置和偏移量
+3.根据 socket Buffer的位置和偏移量 直接将copy到网卡设备发送
+
+
+总结 由4次拷贝减少到2次  0拷贝是针对kernel  在kernel模式下是0拷贝
