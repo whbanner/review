@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e518f11a-40c7-415e-a208-82340e695a77" name="Default Changelist" comment="0拷贝">
-      <change afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/AccountingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/ArrayListMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/VolatileTest.java" afterDir="false" />
+    <list default="true" id="e518f11a-40c7-415e-a208-82340e695a77" name="Default Changelist" comment="线程">
+      <change afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/pool/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/src/main/java/com/wh/io/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/main/java/com/wh/io/IOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/lock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/review/review.iml" afterDir="false" />
@@ -43,12 +40,9 @@
       <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/FirstThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/FirstThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/SecondThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/SecondThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/StartDead.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/StartDead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/pool/ArrayListMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/ArrayListMultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/pool/HashMapMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/HashMapMultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/pool/JVMSupportThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/JVMSupportThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/wh/thread/pool/TestPoolRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/pool/TestPoolRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,198 +85,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/AccountingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/ArrayListMultiThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/pool/ThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-705">
-              <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+            <state relative-caret-position="189">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.ArrayList">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.ArrayList</OriginalElement>
-              <nodes>
-                <node x="408.0" y="228.0">java.util.RandomAccess</node>
-                <node x="192.0" y="152.0">java.util.List</node>
-                <node x="0.0" y="152.0">java.util.AbstractCollection</node>
-                <node x="558.0" y="228.0">java.lang.Cloneable</node>
-                <node x="95.25000000000006" y="76.0">java.util.Collection</node>
-                <node x="53.5" y="228.0">java.util.AbstractList</node>
-                <node x="102.25000000000006" y="0.0">java.lang.Iterable</node>
-                <node x="258.0" y="228.0">java.io.Serializable</node>
-                <node x="268.5" y="304.0">java.util.ArrayList</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.ArrayList" target="java.lang.Cloneable">
-                  <point x="43.60000000000002" y="-13.0" />
-                  <point x="366.6" y="284.0" />
-                  <point x="612.5" y="284.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="java.util.ArrayList" target="java.util.RandomAccess">
-                  <point x="21.80000000000001" y="-13.0" />
-                  <point x="344.8" y="274.0" />
-                  <point x="473.0" y="274.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="java.util.ArrayList" target="java.io.Serializable">
-                  <point x="0.0" y="-13.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="java.util.List" target="java.util.Collection">
-                  <point x="0.0" y="-13.0" />
-                  <point x="229.0" y="127.0" />
-                  <point x="182.25000000000006" y="127.0" />
-                  <point x="29.0" y="13.0" />
-                </edge>
-                <edge source="java.util.AbstractList" target="java.util.List">
-                  <point x="32.5" y="-13.0" />
-                  <point x="151.0" y="203.0" />
-                  <point x="210.5" y="203.0" />
-                  <point x="-18.5" y="13.0" />
-                </edge>
-                <edge source="java.util.Collection" target="java.lang.Iterable">
-                  <point x="0.0" y="-13.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="java.util.ArrayList" target="java.util.List">
-                  <point x="-21.799999999999955" y="-13.0" />
-                  <point x="301.20000000000005" y="274.0" />
-                  <point x="247.5" y="274.0" />
-                  <point x="18.5" y="13.0" />
-                </edge>
-                <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
-                  <point x="-32.5" y="-13.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="java.util.AbstractCollection" target="java.util.Collection">
-                  <point x="0.0" y="-13.0" />
-                  <point x="86.0" y="127.0" />
-                  <point x="124.25000000000006" y="127.0" />
-                  <point x="-29.0" y="13.0" />
-                </edge>
-                <edge source="java.util.ArrayList" target="java.util.AbstractList">
-                  <point x="-43.599999999999966" y="-13.0" />
-                  <point x="279.40000000000003" y="284.0" />
-                  <point x="118.5" y="284.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="247.0" />
-              <SelectedNodes>
-                <node>java.util.ArrayList</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/AbstractList.java">
+        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/concurrent/Executor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
+            <state relative-caret-position="151">
+              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/List.java">
+        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+            <state relative-caret-position="388">
+              <caret line="216" column="55" selection-start-line="216" selection-start-column="55" selection-end-line="216" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.List">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.List</OriginalElement>
-              <nodes>
-                <node x="21.0" y="152.0">java.util.List</node>
-                <node x="0.0" y="76.0">java.util.Collection</node>
-                <node x="7.0" y="0.0">java.lang.Iterable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.List" target="java.util.Collection">
-                  <point x="0.0" y="-13.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="java.util.Collection" target="java.lang.Iterable">
-                  <point x="0.0" y="-13.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-221.0" y="150.5" />
-              <SelectedNodes>
-                <node>java.util.List</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/concurrent/TimeUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -292,6 +140,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -302,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/main/java/com.wh/UserRepository.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-demo/src/test/java/com/wh/ApplicationTests.java" />
@@ -350,9 +198,10 @@
         <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread3.java" />
         <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread1.java" />
         <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/VolatileTest.java" />
-        <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/AccountingTest.java" />
         <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/ArrayListMultiThread.java" />
         <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/Test.java" />
+        <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/AccountingTest.java" />
+        <option value="$PROJECT_DIR$/review/src/main/java/com/wh/thread/pool/ThreadPool.java" />
       </list>
     </option>
   </component>
@@ -388,10 +237,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="-13" />
-    <option name="width" value="678" />
-    <option name="height" value="780" />
+    <option name="x" value="310" />
+    <option name="y" value="63" />
+    <option name="width" value="976" />
+    <option name="height" value="596" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -400,8 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -454,11 +301,24 @@
               <item name="wh" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="review1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review1" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wh" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,20 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="AccountingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wh.thread.AccountingTest" />
-      <module name="review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wh.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ThreadPool.fun1 (2)">
     <configuration name="ArrayListMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wh.thread.ArrayListMultiThread" />
       <module name="review" />
@@ -549,39 +396,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wh.thread.Thread3" />
+    <configuration name="ThreadPool.fun1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wh.thread.*" />
+          <option name="PATTERN" value="com.wh.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.wh.thread.pool" />
+      <option name="MAIN_CLASS_NAME" value="com.wh.thread.pool.ThreadPool" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wh.thread.VolatileTest" />
+    <configuration name="ThreadPool.fun1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wh.thread.*" />
+          <option name="PATTERN" value="com.wh.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.wh.thread.pool" />
+      <option name="MAIN_CLASS_NAME" value="com.wh.thread.pool.ThreadPool" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPool.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wh.thread.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wh.thread.pool" />
+      <option name="MAIN_CLASS_NAME" value="com.wh.thread.pool.ThreadPool" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreadPool.fun1 (2)" />
+        <item itemvalue="JUnit.ThreadPool.fun1 (1)" />
+        <item itemvalue="JUnit.ThreadPool.fun1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArrayListMultiThread" />
-        <item itemvalue="Application.AccountingTest" />
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.Thread3" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +533,10 @@
       <workItem from="1582733246941" duration="1188000" />
       <workItem from="1582806569348" duration="941000" />
       <workItem from="1582814676742" duration="7344000" />
-      <workItem from="1582857806529" duration="8969000" />
+      <workItem from="1582857806529" duration="9158000" />
+      <workItem from="1582962981518" duration="607000" />
+      <workItem from="1582972613803" duration="1031000" />
+      <workItem from="1582978824259" duration="3466000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;pipeline&quot;">
       <created>1577720076362</created>
@@ -897,22 +769,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582818862703</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="线程">
+      <created>1582904814278</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1582904814278</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationTests_test - 2020.01.01 at 22h 20m 58s.xml">
-      <configuration name="ApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_test - 2020.01.01 at 22h 29m 41s.xml">
-      <configuration name="ApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_test - 2020.01.01 at 22h 30m 01s.xml">
-      <configuration name="ApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_test - 2020.01.01 at 22h 31m 20s.xml">
-      <configuration name="ApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApplicationTests_test - 2020.01.01 at 22h 32m 16s.xml">
       <configuration name="ApplicationTests.test" configurationId="JUnit" />
     </history-entry>
@@ -931,15 +798,27 @@
     <history-entry file="Thread2_fun1 - 2020.02.27 at 00h 15m 47s.xml">
       <configuration name="Thread2.fun1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThreadPool_fun1 - 2020.02.29 at 23h 41m 42s.xml">
+      <configuration name="ThreadPool.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadPool_fun1 - 2020.02.29 at 23h 42m 56s.xml">
+      <configuration name="ThreadPool.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadPool_fun1_(1) - 2020.02.29 at 23h 51m 13s.xml">
+      <configuration name="ThreadPool.fun1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadPool_fun1_(2) - 2020.02.29 at 23h 51m 30s.xml">
+      <configuration name="ThreadPool.fun1 (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97589000" />
+    <option name="totallyTimeSpent" value="102882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="714" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21601209" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22507553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -949,7 +828,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27142859" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3642857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20714286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -978,7 +857,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;spring-boot-redis&quot;" />
     <MESSAGE value="datasourece" />
     <MESSAGE value="datasourece spring-boot-redis 代码理解" />
     <MESSAGE value="mybatis" />
@@ -1003,7 +881,8 @@
     <MESSAGE value="io nio 比较" />
     <MESSAGE value="0拷贝" />
     <MESSAGE value="线程 runnable和callable区别" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程 runnable和callable区别" />
+    <MESSAGE value="线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,45 +903,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/queue/mq/MqClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/dubbo-api/src/main/java/com/wh/api/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/queue/mq/BrokerServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io/src/main/java/com/wh/IoTest1.java" />
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/log/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/log/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-redis-deom/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -1164,13 +1004,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/pool/ArrayListMultiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/pool/ArrayListMultiThread.java" />
     <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/pool/JVMSupportThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1327,44 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.util.List">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1386,7 +1182,7 @@
               <point x="0.0" y="13.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-221.0" y="150.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-221.0" y="151.0" />
           <SelectedNodes>
             <node>java.util.List</node>
           </SelectedNodes>
@@ -1479,9 +1275,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/AccountingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Thread3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
+        <state relative-caret-position="465">
           <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1489,17 +1316,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/pool/ThreadPool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/pool/ThreadPOol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/ArrayListMultiThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/AccountingTest.java">
+    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="178">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="216" column="55" selection-start-line="216" selection-start-column="55" selection-end-line="216" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review/src/main/java/com/wh/thread/pool/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
