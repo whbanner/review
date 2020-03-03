@@ -1,0 +1,23 @@
+  乐观锁：并发冲突几率小，对应模块递归操作简单    时使用
+  悲观锁：并发几率大，对应模块操作复杂 时使用
+
+eg1.取款
+本来100块取50，因为硬件故障 线程提交两次
+线程A 100-50
+线程B 100-50
+
+A先成功余额50元
+
+而此时有人汇了50元过来
+线程C 50+50=100
+线程B来了 ABA 发现是100  100-50变为50
+
+sql表
+id	name	version
+1	王辉      	1
+
+线程A：update 表 set name='王辉' ,version=version+1 where id=1 and  version <2
+此时version变为2
+线程B：update 表 set name='王辉' ,version=version+1 where id=1 and  version <2
+执行失败
+
