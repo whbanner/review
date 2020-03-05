@@ -4,8 +4,9 @@ package com.wh.thread.lock.i.cas_aba;
  * javac  xxx.java  编译
  * javap -v xxx.class 反编译
  *
- * synchronized 是同过 monitor 监视器锁 实现, 而监视器锁本质依赖底层操作系统的mutex lock（互斥所） 实现，
+ * synchronized 是通过 monitor 监视器锁 实现, 而监视器锁本质依赖底层操作系统的mutex lock（互斥锁） 实现，
  * 需要用户态到内核太切换 成本高
+ * 引用自旋锁
  */
 public class SynchronizedLock {
 

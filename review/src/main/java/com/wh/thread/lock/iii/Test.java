@@ -3,7 +3,7 @@ package com.wh.thread.lock.iii;
 public class Test {
     int i=0;
     public static void main(String[] args) {
-       new Test().fun1();
+      fun2();
     }
 
     /**
@@ -11,5 +11,15 @@ public class Test {
      */
     public void fun1(){
         i=i+1;
+    }
+
+
+    /**
+     *
+     */
+    public static void fun2(){
+        while (true){
+
+        }
     }
 }
