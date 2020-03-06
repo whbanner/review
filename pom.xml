@@ -19,6 +19,8 @@
         <module>spring-boot-jpa-demo</module>
         <module>io</module>
         <module>lock</module>
+        <module>springTest</module>
+        <module>springTest</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
