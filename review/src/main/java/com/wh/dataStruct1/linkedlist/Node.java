@@ -2,7 +2,7 @@ package com.wh.dataStruct1.linkedlist;
 
 class Node{
     String name;
-//    Node next;
+    Node next;
 
     //双链表
     Node prev;

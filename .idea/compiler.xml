@@ -7,30 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisdemo" />
-        <module name="dubbo-service" />
+        <module name="springTest" />
+        <module name="redisDemo1" />
         <module name="io" />
         <module name="review" />
-        <module name="dubboapi" />
         <module name="springbootredisdeom" />
         <module name="springbootjpademo" />
-        <module name="dubboconsumer" />
-        <module name="datasourcedemo" />
-        <module name="redisDemo1" />
-      </profile>
-      <profile name="Annotation profile for dubboservice" enabled="true">
-        <sourceOutputDir name="../../dubbo-provider/dubbo-service/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../dubbo-provider/dubbo-service/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="dubboservice" />
+        <module name="datasourcedemo" />
+        <module name="dubboapi" />
       </profile>
       <profile name="Annotation profile for review1" enabled="true">
         <sourceOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-service" target="1.8" />
+      <module name="dubboconsumer" target="1.8" />
+      <module name="dubboprovider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -44,6 +42,7 @@
       <module name="mybatisdemo" options="-parameters" />
       <module name="redisDemo1" options="-parameters" />
       <module name="review" options="-parameters" />
+      <module name="springTest" options="-parameters" />
       <module name="springbootdubbo" options="" />
       <module name="springbootjpademo" options="-parameters" />
       <module name="springbootredisdeom" options="-parameters" />
