@@ -22,11 +22,13 @@ public class JedisDemo1 {
     public void demo1(){
         // 1.设置IP地址和端口
         Jedis jedis = new Jedis("localhost",6379);
+        jedis.setnx()
         // 2.保存数据
 //        jedis.set("name","whhh");
         Map<String,String> map=new HashMap<>();
         map.put("username","wh");
         map.put("password","123");
+        map.put("id","1");
         jedis.hmset("login",map);
         // 3.获取数据
 //        String value = jedis.get("name");
