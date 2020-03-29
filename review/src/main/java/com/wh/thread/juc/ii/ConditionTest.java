@@ -1,5 +1,6 @@
 package com.wh.thread.juc.ii;
 
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -10,7 +11,6 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ConditionTest {
     public static void main(String[] args) {
-
         Data3 data3 = new Data3();
         new Thread(()->{
             for (int i=0;i<10;i++){

@@ -16,6 +16,7 @@ public class CyclicBarrierTest {
                 System.out.println(Thread.currentThread().getName()+"===I am inner");
                 try {
                     cyclicBarrier.await();
+                    System.out.println(Thread.currentThread().getName());
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (BrokenBarrierException e) {

@@ -2,32 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redisDemo1" />
+        <module name="springbootredisdeom" />
+        <module name="review" />
         <module name="mybatisdemo" />
         <module name="springTest" />
-        <module name="redisDemo1" />
-        <module name="io" />
-        <module name="review" />
-        <module name="springbootredisdeom" />
-        <module name="springbootjpademo" />
-        <module name="dubboservice" />
         <module name="datasourcedemo" />
-        <module name="dubboapi" />
-      </profile>
-      <profile name="Annotation profile for review1" enabled="true">
-        <sourceOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../spring-boot-dubbo/dubbo-api/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
+        <module name="io" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="dubbo-api" target="1.8" />
       <module name="dubbo-service" target="1.8" />
+      <module name="dubboapi" target="1.8" />
       <module name="dubboconsumer" target="1.8" />
       <module name="dubboprovider" target="1.8" />
+      <module name="dubboservice" target="1.8" />
+      <module name="springbootdubbo" target="1.8" />
+      <module name="springbootjpademo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

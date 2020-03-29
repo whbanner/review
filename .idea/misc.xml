@@ -15,6 +15,8 @@
       <set>
         <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa-demo/pom.xml" />
       </set>
     </option>
   </component>

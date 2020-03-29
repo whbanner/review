@@ -1,6 +1,7 @@
 package com.wh.thread.juc.iii;
 
 import java.util.concurrent.Callable;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
@@ -18,6 +19,7 @@ public class CallableTest {
         new Thread(futureTask,"B").start();
         String str=futureTask.get();
         System.out.println(str);
+//        CopyOnWriteArrayList s
     }
 }
 class MyCallable implements Callable<String>{

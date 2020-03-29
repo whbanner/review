@@ -229,6 +229,5 @@ public class Test implements Runnable {
 //        System.out.println(Thread.currentThread().getName()+"结束"+Thread.currentThread().getState());
         fun5();
 
-
     }
 }

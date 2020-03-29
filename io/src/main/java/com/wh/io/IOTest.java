@@ -5,8 +5,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * https://blog.csdn.net/forezp/article/details/88414741
+ * https://blog.csdn.net/forezp/article/details/88414741A
  */
+
 public class IOTest {
     /**
      * nio

@@ -1,11 +1,9 @@
 package com.wh.socket.i;
 
-import org.junit.rules.Timeout;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.ServerSocket;
+
 import java.net.Socket;
 
 public class SocketClientTest {
@@ -23,6 +21,7 @@ public class SocketClientTest {
 
         InputStream inputStream=socket.getInputStream();
         byte[] bytes = new byte[1024];
+
         StringBuilder sb = new StringBuilder();
         int len;
         //一次最多读1024个字节的数据，并放到到byte里
