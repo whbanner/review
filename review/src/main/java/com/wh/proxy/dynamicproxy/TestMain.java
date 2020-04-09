@@ -2,6 +2,11 @@ package com.wh.proxy.dynamicproxy;
 
 import org.junit.Test;
 
+/**
+ * 静态代理 需要new具体的代理类，然后用代理类去调用
+ * 而动态代理 你只要传入你需要被代理的类，之后proxyhandler 来具体实现来决定。
+ * 隐藏了代理类的细节，不知道具体的代理类
+ */
 public class TestMain {
 
     @Test
