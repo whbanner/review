@@ -8,6 +8,6 @@ public class TeaProduceProxy extends ProduceProxy {
     }
 
     public void tea(){
-        System.out.println("tea");
+        System.out.println("喝茶");
     }
 }

@@ -13,9 +13,11 @@ public class TestMain {
 
     @Test
     public void test1(){
-        ProduceProxy produceProxy = new ProduceProxy();
-        TeaProxy teaProxy=new TeaProxy();
-        produceProxy.sale();
+        /**
+         * 被代理类
+         */
+        SaleMan saleMan =new SaleMan();
+        saleMan.sale();
         System.out.println("========");
         /**
          *  在介绍前喝茶 得重写一个代理类继承ProduceProxy ,在喝茶前介绍，顺序颠倒了也要重写写一个代理类。

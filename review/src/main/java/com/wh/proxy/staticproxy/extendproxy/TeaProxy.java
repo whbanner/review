@@ -10,6 +10,6 @@ public class TeaProxy extends SaleMan {
     }
 
     public void tea(){
-        System.out.println("倒茶");
+        System.out.println("喝茶");
     }
 }
